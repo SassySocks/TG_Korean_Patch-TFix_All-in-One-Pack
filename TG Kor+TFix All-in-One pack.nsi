@@ -1,6 +1,6 @@
 
 !define PRODUCT_NAME "TFix+한글패치 올인원팩"
-!define PRODUCT_VERSION "v1.04"
+!define PRODUCT_VERSION "v1.05"
 !define PRODUCT_PUBLISHER "제로방송 (coolgarlic@gmail.com)"
 !define PRODUCT_WEB_SITE "http://cafe.naver.com/thiefgame"
 BrandingText "cafe.naver.com/thiefgame"
@@ -73,7 +73,7 @@ Section "!한글패치 ${PRODUCT_VERSION}" SEC02
       ; 3. 한글패치 설치
   SetOutPath "$INSTDIR"
   SetOverwrite on
-  File /r "씨프 골드 한글패치 v1.04\*.*"
+  File /r "씨프 골드 한글패치 v1.05\*.*"
   DetailPrint "*Thief Gold 한글패치 ${PRODUCT_VERSION}를 설치합니다..."
 
       ; 4. install.cfg 를 게임에서 덮어쓰지 못하도록 읽기 전용 속성 부여
