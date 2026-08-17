@@ -1,11 +1,11 @@
 
 !define PRODUCT_NAME "TFix+한글패치 올인원팩"
-!define PRODUCT_VERSION "v1.04"
+!define PRODUCT_VERSION "v1.05"
 !define PRODUCT_PUBLISHER "제로방송 (coolgarlic@gmail.com)"
 !define PRODUCT_WEB_SITE "http://cafe.naver.com/thiefgame"
 BrandingText "cafe.naver.com/thiefgame"
 RequestExecutionLevel admin
-
+Unicode true
 SetCompressor /final zlib
 
 !include "MUI2.nsh"
@@ -19,6 +19,12 @@ SetCompressor /final zlib
 !define MUI_DIRECTORYPAGE_TEXT_TOP "${PRODUCT_NAME} ${PRODUCT_VERSION}를 설치합니다.$\r$\n$\r$\n$\r$\nThief Gold가 설치된 디렉토리를 선택해주세요.$\r$\n(기본 경로는 Steam판 기본 라이브러리 폴더로 설정되어 있습니다)"
 ; Welcome page
 !insertmacro MUI_PAGE_WELCOME
+!define MUI_PAGE_HEADER_TEXT "사용 폰트 저작권 및 라이선스 고지"
+!define MUI_PAGE_HEADER_SUBTEXT "설치하시기 전에 사용 폰트 저작권 및 라이선스 고지 내용을 살펴보시기 바랍니다."
+!define MUI_LICENSEPAGE_TEXT_TOP "본 한글패치는 아래와 같은 폰트들을 사용했음을 알립니다. "
+!define MUI_LICENSEPAGE_TEXT_BOTTOM "나머지 부분을 보시려면 [Page Down] 키를 눌러주세요.$\r$\n내용을 확인하셨다면, '확인'을 눌러 주세요."
+!define MUI_LICENSEPAGE_BUTTON "확인"
+!insertmacro MUI_PAGE_LICENSE "LICENSE_FONTS.txt"
 ; Components page
 !insertmacro MUI_PAGE_COMPONENTS
 ; Directory page
@@ -73,7 +79,7 @@ Section "!한글패치 ${PRODUCT_VERSION}" SEC02
       ; 3. 한글패치 설치
   SetOutPath "$INSTDIR"
   SetOverwrite on
-  File /r "씨프 골드 한글패치 v1.04\*.*"
+  File /r "씨프 골드 한글패치 v1.05\*.*"
   DetailPrint "*Thief Gold 한글패치 ${PRODUCT_VERSION}를 설치합니다..."
 
       ; 4. install.cfg 를 게임에서 덮어쓰지 못하도록 읽기 전용 속성 부여
@@ -129,7 +135,7 @@ Delete "$INSTDIR\MODS\ep2.zip"
 
   SetOutPath "$INSTDIR"
   SetOverwrite on
-  File "EP1+2 cfg\cam_mod.ini"
+  File /r "EP1+2 cfg and texture\*.*"
 SectionEnd
 
 
@@ -140,7 +146,7 @@ SectionEnd
   !insertmacro MUI_DESCRIPTION_TEXT ${SEC03} "커스텀 키설정 프로필을 미리 적용합니다.(Zero-bangsong Bindings) $\r$\n*WSAD 이동키, Q/E 옆으로 기울이기, F 앞으로 기울이기, G 나침반, X 앉기, Z 앞으로 걷기, Shift 스피드 토글, V 막기, 휠버튼 아이템 치우기"
   !insertmacro MUI_DESCRIPTION_TEXT ${SEC04} "Thief Gold의 3D 사운드 및 환경 음향 효과, EAX를 지원하는 OpenAL 런타임을 설치하고, 인게임 설정에서 사전 활성화합니다."
   !insertmacro MUI_DESCRIPTION_TEXT ${SEC05} "게임 내 효과음을 고음질로 개선하는 모드입니다.$\r$\n$\r$\n노이즈 감소, 음질 보정 및 일부 효과음 교체를 통해 더욱 선명하고 현실적인 음향을 제공합니다.$\r$\n(by Child Of Karras/TTLG Forum)"
-  !insertmacro MUI_DESCRIPTION_TEXT ${SEC06} "TFix 설치중 나타나는 'Disable anti-aliasing?'$\r$\n(예: AA Off/아니오: On) 팝업 대화상자의 선택과 상관없이, 안티앨리어싱, 소프트웨어 감마를 활성화합니다. 계단 현상을 줄여 보다 부드러운 그래픽을 제공하고 캡쳐 시 밝기 버그를 해결합니다."
+  !insertmacro MUI_DESCRIPTION_TEXT ${SEC06} "TFix 설치중 나타나는 'Disable anti-aliasing?'$\r$\n(예: AA Off/아니오: On) 팝업 대화상자의 선택과 상관없이 안티앨리어싱, 소프트웨어 감마를 활성화합니다. 계단 현상을 줄여 보다 부드러운 그래픽을 제공하고 캡쳐 시 밝기 버그를 해결합니다."
   !insertmacro MUI_DESCRIPTION_TEXT ${SEC07} "Thief Enhancement Pack 2.0 (Alpha 241003) 다운로드 후 TFix에 포함된 EP1 기반으로 추가 적용합니다.$\r$\n 원작 분위기를 유지한 고해상도 텍스처를 제공하지만, 알파 버전으로 일부 품질 편차가 있을 수 있습니다."
 !insertmacro MUI_FUNCTION_DESCRIPTION_END
 

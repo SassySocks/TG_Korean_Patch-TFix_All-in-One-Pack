@@ -1,0 +1,252 @@
+﻿====================================
+Thief Gold 한글패치 — 사용 폰트 저작권 및 라이선스 고지
+====================================
+
+본 패치는 한글 표시를 위해 아래 폰트들을 사용했습니다.
+각 폰트의 저작권은 원 저작자에게 있으며, 본 패치는 무료로
+배포되고 폰트 자체를 판매하지 않습니다.
+
+패치에 폰트 파일(TTF/OTF)은 포함되어 있지 않습니다.
+
+[A] 게임용 비트맵 폰트(.FON)로 변환하여 포함한 폰트
+    → 원본 폰트의 파생물에 해당. 라이선스 전문 포함.
+[B] 이미지·텍스처 렌더링에만 사용한 폰트
+    → 폰트의 통상적 사용(출력물). 감사의 뜻으로 출처만 표기.
+
+
+=============================
+[A] .FON 변환에 사용된 폰트
+=============================
+
+  용도              폰트                                 크기
+  ---------------- ------------------------------ -------
+  본문/UI/자막     돋움 (Dotum)                 12pt
+  알림                돋움 (Dotum)                  14pt
+  픽셀 표시         Galmuri7                        7px
+  양피지·장부·책   김정철 서체 (Script Bold)  13pt
+  양피지·장부·책   대암 이태준체 (Bold)        13pt
+  석판                Hahmlet SemiBold           24pt
+
+
+-----------------------------------------------------------
+A-1. SIL Open Font License 1.1
+-----------------------------------------------------------
+
+Galmuri7
+  Copyright Quiple (https://quiple.dev/galmuri)
+
+Hahmlet
+  Copyright 2020 The Hahmlet Project Authors
+  (https://github.com/hyper-type/hahmlet)
+
+  → 위 폰트들은 SIL Open Font License, Version 1.1 하에
+     배포됩니다. 라이선스 전문은 아래 「부록 1」 참조.
+
+
+-----------------------------------------------------------
+A-2. 김정철 서체 라이선스
+-----------------------------------------------------------
+
+김정철 서체 (Kim jung chul Script)
+  Copyright (c) 2022 Junglim Architecture co., ltd.
+  Kim jung chul Script is a trademark of Junglim Architecture co., ltd.
+  지적재산권: ㈜정림건축종합건축사사무소
+
+  → 라이선스 전문은 아래 「부록 2」 참조.
+
+
+-----------------------------------------------------------
+A-3. 대암 이태준체
+-----------------------------------------------------------
+
+대암 이태준체 (DAEAM_LEE_TAE_JOON)
+  Copyright 2023 대암 이태준선생 기념사업회
+  http://leetaejoon.com/wp/  /  daeamltj@naver.com
+
+  대암 이태준 선생(1883~1921)의 육필을 바탕으로 제작되어
+  기념사업회가 무료 배포하는 글꼴입니다.
+
+
+-----------------------------------------------------------
+A-4. 돋움 (Dotum)
+-----------------------------------------------------------
+
+돋움 (Dotum)
+  Copyright 2024 The Gulim and Dotum Project Authors
+  (https://github.com/googlefonts/gulim)
+  Designed by HanYang I&C Co.
+
+  게임 내 본문·UI·자막 표시용 비트맵 폰트 생성에 사용되었습니다.
+
+
+=============================
+[B] 이미지·텍스처 렌더링에 사용된 폰트
+=============================
+
+지도·표지판·메뉴 등 이미지에 한글을 렌더링하는 데 사용되었습니다.
+폰트 파일 자체는 패치에 포함되어 있지 않으며, 각 저작권자에게
+감사드립니다.
+
+  · 나눔손글씨 펜 (Nanum Pen Script)
+      Copyright (c) 2010 NHN Corporation.
+      Designed by Sandoll Communications Inc.
+  · 나눔손글씨 열일체 (Nanum YeorIrCe)
+  · 나눔손글씨 와일드 (Nanum WaIrDeu)
+      Copyright (c) 2019 NAVER Corporation.
+      Font created by CLOVA AI OCR Team.
+  · 나눔명조 ExtraBold (Nanum Myeongjo)
+      Copyright NAVER Corporation.
+  · 마루 부리 (Maru Buri)
+      네이버, 네이버문화재단 / AG 타이포그라피연구소
+  · 고운바탕 (Gowun Batang)
+      Copyright 2021 The Gowun Batang Project Authors
+      SIL Open Font License 1.1
+  · Noto Serif KR
+      (c) 2017-2024 Adobe. Noto is a trademark of Google Inc.
+      SIL Open Font License 1.1
+
+
+=====================================
+부록 1 — SIL OPEN FONT LICENSE Version 1.1
+=====================================
+
+This Font Software is licensed under the SIL Open Font License,
+Version 1.1.
+
+This license is copied below, and is also available with a FAQ at:
+http://scripts.sil.org/OFL
+
+-----------------------------------------------------------
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+-----------------------------------------------------------
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide
+development of collaborative font projects, to support the font
+creation efforts of academic and linguistic communities, and to
+provide a free and open framework in which fonts may be shared and
+improved in partnership with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and
+redistributed freely as long as they are not sold by themselves. The
+fonts, including any derivative works, can be bundled, embedded,
+redistributed and/or sold with any software provided that any reserved
+names are not used by derivative works. The fonts and derivatives,
+however, cannot be released under any other type of license. The
+requirement for fonts to remain under this license does not apply to
+any document created using the fonts or their derivatives.
+
+DEFINITIONS
+"Font Software" refers to the set of files released by the Copyright
+Holder(s) under this license and clearly marked as such. This may
+include source files, build scripts and documentation.
+
+"Reserved Font Name" refers to any names specified as such after the
+copyright statement(s).
+
+"Original Version" refers to the collection of Font Software
+components as distributed by the Copyright Holder(s).
+
+"Modified Version" refers to any derivative made by adding to,
+deleting, or substituting -- in part or in whole -- any of the
+components of the Original Version, by changing formats or by porting
+the Font Software to a new environment.
+
+"Author" refers to any designer, engineer, programmer, technical
+writer or other person who contributed to the Font Software.
+
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of the Font Software, to use, study, copy, merge, embed,
+modify, redistribute, and sell modified and unmodified copies of the
+Font Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components, in
+Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled,
+redistributed and/or sold with any software, provided that each copy
+contains the above copyright notice and this license. These can be
+included either as stand-alone text files, human-readable headers or
+in the appropriate machine-readable metadata fields within text or
+binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font
+Name(s) unless explicit written permission is granted by the
+corresponding Copyright Holder. This restriction only applies to the
+primary font name as presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+Software shall not be used to promote, endorse or advertise any
+Modified Version, except to acknowledge the contribution(s) of the
+Copyright Holder(s) and the Author(s) or with their explicit written
+permission.
+
+5) The Font Software, modified or unmodified, in part or in whole,
+must be distributed entirely under this license, and must not be
+distributed under any other license. The requirement for fonts to
+remain under this license does not apply to any document created using
+the Font Software.
+
+TERMINATION
+This license becomes null and void if any of the above conditions are
+not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+OTHER DEALINGS IN THE FONT SOFTWARE.
+
+
+=====================================
+부록 2 — 김정철 서체 라이선스
+=====================================
+
+ㅇ 김정철 서체 라이선스안내
+
+김정철 서체의 지적재산권은 ㈜정림건축종합건축사사무소(이하 (주)정림건축)에 있습니다.
+
+
+ㅇ 김정철 서체 구성 및 지원
+
+서체명: Kim jung chul_Myungjo / Kim jung chul_Gothic 
+김정철 서체는 총 6종(고딕 3종, 명조 3종)으로 구성
+한글 유니코드(Unicode) 기반 서체
+Windows, Mac OSX를 포함
+Unix, Windows CE 등 대부분의 OS를 지원
+
+ㅇ 김정철 서체 라이선스 정책
+김정철 서체는 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공, 상업적인 목적을 포함
+하여 다양한 용도로 사용이 가능합니다. 향후 유료전환을 통한 분쟁의 가능성 또한 없습니다.
+
+김정철 서체는 본 저작권 안내와 라이선스 전문을 포함해서 다른 소프트웨어와 번들하거나 자유롭게 
+재배포가 가능합니다.
+단, 김정철 서체 자체, 혹은 김정철 서체를 2차 가공한 서체 등을 유료로 판매하는 것은 금지합니
+다. 이와 같은 유료 판매 시 본 정책 및 저작권법 위반으로 법적인 책임을 질 수 있습니다.
+
+김정철 서체 라이선스 전문을 포함하기 어려울 경우, 김정철 서체의 출처 표기를 권장합니다.
+
+김정철 서체를 사용한 인쇄물, 광고물(온라인 포함)의 이미지는 ㈜정림건축의 프로모션을 위해 활용
+될 수 있습니다. 이를 원치 않는 사용자는 언제든지 ㈜정림건축에 요청하실 수 있습니다.
+- 문의: 정림건축 대표전화 02_708_8600
+
+​본 라이선스는 상기 조건 중 일부라도 부합되지 않으면 무효가 될 수 있으며, 이는 라이선스를 통한 
+서체 무료 제공 등의 배포 조건이 모두 무효가 됨을 의미합니다.
+
+어떠한 경우에도 정립건축은 본 폰트 소프트웨어의 사용 또는 이의 사용 불가, 그 밖에 폰트 소프트
+웨어의 취급과 관련하여 발생하는 모든 계약, 불법행위 혹은 기타 다른 일로 발생하는 일반적, 특수
+적, 간접적, 부차적 혹은 필연적 손해를 포함하는 소송, 손해, 여타 책임에 대한 의무를 가지지 않습
+니다.
+
+
+=====================================
+문의
+=====================================
+본 고지에 누락이나 오류가 있으면 배포처(네이버 씨프 카페, cafe.naver.com/thiefgame)
+또는 한글패치 제작자 제로방송(coolgarlic@gmail.com)에게 알려주시면 감사하겠씁니다.
